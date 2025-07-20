@@ -218,6 +218,15 @@ th {
   text-align: -webkit-match-parent;
 }
 
+
+
+.icon{
+  height: 70px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
 /* start header css */
  /* Gradient button */
   .btn-gradient {
@@ -231,6 +240,7 @@ th {
     color: white;
   }
 
+  
   /* Floating cards */
   .floating-card {
     position: absolute;
