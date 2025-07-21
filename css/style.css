@@ -10146,3 +10146,14 @@ h6,
                 background-position: center 10%;
             }
         }
+#contactForm input{
+  border: 1px solid white;
+}
+
+.contactForm input:focus {
+  border-color: white;
+}
+
+.contactForm input::placeholder {
+  border-color: white;
+}
