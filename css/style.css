@@ -10128,3 +10128,21 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+#contactFrom {
+            background-size: cover;
+            background-position: center;
+            animation: bgZoom 20s ease-in-out infinite alternate;
+        }
+
+        @keyframes bgZoom {
+            0% {
+                background-size: 100%;
+                background-position: center;
+            }
+            100% {
+                background-size: 105%;
+                background-position: center 10%;
+            }
+        }
