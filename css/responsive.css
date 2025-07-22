@@ -1,0 +1,179 @@
+  @media (max-width: 767px) {
+    /* General spacing for sections */
+    #about,
+    #qualification,#portfolio, #testimonial{
+      padding-top: 60px !important;
+      padding-bottom: 60px !important;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    #qualification{
+        margin-top: 100%;
+    }
+
+    /* Add more gap between rows in About and Work sections */
+    /* #about .row,
+    #qualification .row {
+      row-gap: 30px;
+    } */
+
+    /* Make text less cramped */
+    #about p,
+    #qualification p, #testimonial p, #portfolio p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    /* Profile Image spacing */
+    #about .profile-img {
+      margin-bottom: 30px;
+    }
+
+    /* Work experience timeline adjustments */
+    #qualification .pl-2 {
+      margin-top: 30px;
+    }
+
+    /* Section titles spacing */
+    #about h1,
+    #qualification h1, #portfolio h1, #testimonial h1, #contactFrom h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 575px) {
+    /* Extra small screens (iPhone SE, etc.) */
+    #about,
+    #qualification, #portfolio, #contactFrom{
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    #about h3,
+    #qualification h5 {
+      font-size: 1.2rem;
+    }
+    #about .btn,
+    #qualification .btn , #contactFrom .btn{
+      width: 100%;
+    }
+  }
+
+
+  /* Default for large screens */
+#about, #qualification, #portfolio, #testimonial, #contactFrom{
+  height: 100vh;
+  min-height: 600px; /* fallback for very short viewports */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#portfolio .container{
+    height: auto;
+}
+
+#contactFrom{
+    height: 110vh;
+ }
+
+/* Medium screens (tablet) */
+@media (max-width: 991px) {
+  #about, #qualification, #portfolio, #testimonial, #contactFrom{
+    height: auto;
+    min-height: unset;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #contactFrom{
+    height: 100vh;
+ }
+
+}
+
+/* Small screens (mobile) */
+@media (max-width: 767px) {
+  #about, #qualification, #portfolio, #testimonial, #contactFrom{
+    height: auto;
+    min-height: unset;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #contactFrom{
+    margin: 0;
+  }
+
+}
+
+
+.shadow-lg {
+    height: 100%;
+}
+
+.p-3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#testimonial {
+    margin-top: 20%; /* Large top margin for all screens */
+}
+
+@media (max-width: 767.98px) {
+    #testimonial {
+        margin-top: 20px; /* Large top margin for all screens */
+    }
+
+    .card-review {
+        width: 100%; /* Full width on mobile */
+    }
+}
+
+
+
+/* Floating Card */
+.floating-card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 8px 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    position: absolute;
+    max-width: 220px;
+    transition: all 0.3s ease-in-out;
+}
+
+.floating-card img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 767.98px) {
+    #home {
+        padding: 10px;
+    }
+    .floating-card {
+        transform: scale(0.8);
+    }
+    .floating-card.top-card {
+        top: 10px;
+        right: 0;
+    }
+    .floating-card.bottom-card {
+        bottom: 10px;
+    }
+    .floating-card.bottom-card:last-child {
+        bottom: 50px;
+    }
+}
+
+
+#about, #qualification {
+  overflow-x: hidden;
+}

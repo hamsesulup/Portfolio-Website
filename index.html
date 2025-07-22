@@ -24,6 +24,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -51,16 +53,14 @@
 
 
 <!-- Header Start -->
-<div
-  class="container-fluid d-flex align-items-center mb-5 py-5"
-  id="home"
-  style="min-height: 100vh; color: white;"
->
+<!-- Header Start -->
+<div class="container-fluid d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh; color: white;">
   <div class="container">
     <div class="row align-items-center position-relative">
+      
       <!-- Left Text -->
       <div
-        class="col-lg-7 text-center text-lg-left"
+        class="col-lg-7 text-center text-lg-left mb-4 mb-lg-0 order-1 order-lg-1"
         data-aos="fade-right"
         data-aos-duration="1200"
       >
@@ -69,8 +69,7 @@
           style="min-height: 60px;"
         ></h1>
         <div class="typed-text d-none">
-          Web Designer, Web Developer, Front End Developer, Apps Designer,
-          Apps Developer
+          Front End Developer, Back End Developer, Mobile App Developer
         </div>
         <h3
           class="display-3 mb-4"
@@ -83,7 +82,7 @@
         <p class="text-dark"
           data-aos="fade-up"
           data-aos-delay="600"
-          style="max-width: 600px; font-size: 0.8rem;"
+          style="max-width: 600px; font-size: 0.9rem;"
         >
           System Developer with expertise in building scalable web, backend,
           and mobile applications. Skilled in React, .NET Framework, and
@@ -95,21 +94,20 @@
           data-aos-delay="800"
         >
           <a href="#" class="btn btn-primary mr-3 text-white">Resume</a>
-          <a href="#" class="btn btn-outline-dark btn-sm">Contact me <i class="fa fa-arrow-right"></i
-          ></a>
+          <a href="#" class="btn btn-outline-dark btn-sm">Contact me <i class="fa fa-arrow-right"></i></a>
         </div>
       </div>
 
       <!-- Right Image + Floating Cards -->
       <div
-        class="col-lg-5 position-relative"
+        class="col-lg-5 position-relative text-center order-2 order-lg-2"
         data-aos="fade-left"
         data-aos-duration="1200"
       >
-        <img class="w-100 rounded-3 text-dark" src="img/wardi.png" alt="Hamse Image" style="filter: drop-shadow(0 0 10px #bb86fc);"/>
+        <img class="img-fluid rounded-3 text-dark" src="img/wardi.png" alt="Hamse Image" style="filter: drop-shadow(0 0 10px #bb86fc); max-width: 100%; height: auto;"/>
 
         <!-- Floating top card -->
-        <div class="floating-card top-card d-flex align-items-center" style="top: 20px; right: 0;" >
+        <div class="floating-card top-card d-flex align-items-center" style="top: 20px; right: 0;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="logo" />
           <div class="text ml-3 text-dark">
             <div style="font-weight: 600;">React</div>
@@ -118,7 +116,7 @@
         </div>
 
         <!-- Floating bottom card -->
-        <div class="floating-card bottom-card d-flex align-items-center" style="bottom: 20px; left: 0;" >
+        <div class="floating-card bottom-card d-flex align-items-center" style="bottom: 20px; left: 0;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" alt=".NET" class="logo" />
           <div class="text ml-3 text-dark">
             <div style="font-weight: 600;">.NET Framework</div>
@@ -127,7 +125,7 @@
         </div>
 
         <!-- Another floating card bottom right -->
-        <div class="floating-card bottom-card d-flex align-items-center" style="bottom: 70px; right: 10px;" >
+        <div class="floating-card bottom-card d-flex align-items-center" style="bottom: 70px; right: 10px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="logo"/>
           <div class="text ml-3 text-dark">
             <div style="font-weight: 600;">Flutter</div>
@@ -135,47 +133,15 @@
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
 <!-- Header End -->
 
-
-<!-- AOS Animation Library -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-
-<style>
-  /* Programming language logos styling */
-  .prog-logo {
-    width: 48px;
-    height: 48px;
-    transition: transform 0.3s ease, filter 0.3s ease;
-    cursor: pointer;
-    filter: grayscale(60%);
-  }
-  .prog-logo:hover {
-    transform: scale(1.2);
-    filter: grayscale(0%);
-  }
-
-  /* Position adjustment for logos container on smaller screens */
-  @media (max-width: 991px) {
-    .position-absolute {
-      position: static !important;
-      margin-top: 1rem;
-    }
-  }
-</style>
-
-
-
+    
 <!-- About Start -->
-
-<div class="container-fluid py-5" style="height: 100vh; background-color: #f0f6f8;" id="about">
+<div class="container-fluid py-5" style="background-color: #f0f6f8;" id="about">
   <div class="container pt-5 mt-3">
     <!-- Section Heading -->
     <div class="position-relative d-flex align-items-center justify-content-center mb-5">
@@ -199,13 +165,13 @@
     <div class="row align-items-center">
       <!-- Profile Image -->
       <div
-        class="col-lg-5 mb-4 mb-lg-0"
+        class="col-lg-5 mb-4 mb-lg-0 order-1 order-lg-1 text-center"
         data-aos="fade-right"
         data-aos-duration="1200"
       >
         <img
           class="img-fluid w-100 shadow-lg profile-img"
-          style="border-radius: 20px;"
+          style="border-radius: 20px; max-width: 100%; height: auto;"
           src="img/profile.jpg"
           alt="Hamse Abdi"
         />
@@ -213,85 +179,92 @@
 
       <!-- About Text -->
       <div
-        class="col-lg-7"
-            data-aos="fade-left"
-            data-aos-duration="1200"
-        >
-            <h3 class="mb-4">Full Stack Developer</h3>
-            <p class="text-justify">
-            System Developer with strong expertise in designing and developing scalable web, backend, and mobile applications. Proficient in React for dynamic UIs, .NET Framework for robust backends, and Flutter with Dart for cross-platform mobile apps. Skilled in database optimization for large-scale applications. Passionate about solving complex challenges and delivering high-quality, user-focused software solutions.
-            </p>
-            <div class="row mb-4">
-            <div class="col-sm-6 py-2">
-                <h6>Name: <span class="text-secondary">Hamse Abdi</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-                <h6>Title: <span class="text-secondary">Full Stack Developer</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-                <h6>Experience: <span class="text-secondary">4 Years</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-                <h6>Phone: <span class="text-secondary">+252 63 4690798</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-                <h6>Email: <span class="text-secondary">hamsesulup@gmail.com</span></h6>
-            </div>
-            <div class="col-sm-6 py-2">
-                <h6>Address: <span class="text-secondary">Rd number1, Hargeisa, SL.</span></h6>
-            </div>
-            </div>
-            <a
-            href="#"
-            class="btn btn-primary mr-3 custom-btn"
-            data-aos="zoom-in"
-            data-aos-delay="200"
-            >Contact Me <i class="fa fa-arrow-right"></i
-            ></a>
-            <a
-            href="#"
-            class="btn btn-outline-dark custom-btn-outline"
-            data-aos="zoom-in"
-            data-aos-delay="400"
-            >Hire Me</a
-            >
+        class="col-lg-7 order-2 order-lg-2"
+        data-aos="fade-left"
+        data-aos-duration="1200"
+      >
+        <h3 class="mb-4">Full Stack Developer</h3>
+        <p class="text-justify">
+          System Developer with strong expertise in designing and developing scalable web, backend, and mobile applications. Proficient in React for dynamic UIs, .NET Framework for robust backends, and Flutter with Dart for cross-platform mobile apps. Skilled in database optimization for large-scale applications. Passionate about solving complex challenges and delivering high-quality, user-focused software solutions.
+        </p>
+        <div class="row mb-4">
+          <div class="col-sm-6 py-2">
+            <h6>Name: <span class="text-secondary">Hamse Abdi</span></h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>Title: <span class="text-secondary">Full Stack Developer</span></h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>Experience: <span class="text-secondary">4 Years</span></h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>Phone: <span class="text-secondary">+252 63 4690798</span></h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>Email: <span class="text-secondary">hamsesulup@gmail.com</span></h6>
+          </div>
+          <div class="col-sm-6 py-2">
+            <h6>Address: <span class="text-secondary">Rd number1, Hargeisa, SL.</span></h6>
+          </div>
         </div>
-        </div>
+        <a
+          href="#"
+          class="btn btn-primary mr-3 custom-btn"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >Contact Me <i class="fa fa-arrow-right"></i></a>
+        <a
+          href="#"
+          class="btn btn-outline-dark"
+          data-aos="zoom-in"
+          data-aos-delay="400"
+        >Hire Me</a>
+      </div>
     </div>
-    </div>
+  </div>
+</div>
+
+
     <!-- About End -->
 
         
     <!-- Work Experience Start -->
-    <div class="container-fluid py-5" style="height: 100vh;" id="qualification">
+    <div class="container-fluid py-5" id="qualification">
         <div class="container pt-5 mt-5">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Work Expericence</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;" data-aos="fade-up" data-aos-duration="1000">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary" class="position-absolute text-uppercase text-primary" data-aos="fade-down" data-aos-duration="1000">Work Expericence</h1>
             </div>
 
-            <div class="row align-items-center text-right" style="margin-top: -14%;">
-                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                    <div class="pt-2 pl-4 ml-2" style="margin-top: 80%;">
+            <div class="row align-items-center text-right" style="margin-top: 0%;">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
+                    <div class="pt-2 pl-4 ml-2" style="margin-top: -5%;">
                         <div class="position-relative">
-                            <h5 class="font-weight-bold mb-1">Mobile App Dev</h5>
-                            <p><small class="bg-primary text-white rounded-pill p-2">Nov 2022 - Feb 2023</small> | <strong>Taakul digital Solutions</strong></p>
-                            <p class="text-justify">As a System Developer at the International Cooperation and Development Fund (ICDF) from April 2023 to October 2024, I developed and maintained web and mobile applications to support international projects. I worked with React.js, Flutter, and .NET Framework to build scalable systems and integrated APIs for seamless data exchange. I also optimized databases managing 200,000+ records and ensured data privacy, secure and compliance with international level standards.</p>
+                            <h5 class="font-weight-bold mb-1">System Developer</h5>
+                            <p><small class="bg-primary text-white rounded-pill p-2">Oct 2023 - Feb 2024</small> | <strong>Internation Cooporation and Development Fund</strong></p>
+                            <p class="text-justify ">As a System Developer at the International Cooperation and Development Fund (ICDF) from April 2023 to October 2024, I developed and maintained web and mobile applications to support international projects. I worked with React.js, Flutter.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                     <div class="border-primary pl-4 ml-2 text-left">
                         <div class="position-relative pl-2">
-                            <img src="./img/icdf.png" class="position-absolute" style="top: -7px; left: -52px; border-radius: 100%; width: 50px; border: solid 3px #007bff;" />
-                            <h5 class="font-weight-bold">System Developer</h5>
-                            <p><strong>Internation Cooporation and Development Fund.</strong> | <small class="bg-primary text-white rounded-pill p-2">Apr 2022 - Oct 2023</small></p>
-                            <p class="text-justify">As a Flutter Developer at Taakul Digital Solutions from October 2022 to February 2023, I developed and deployed cross-platform mobile applications using Flutter and Dart. I built user-friendly interfaces, integrated RESTful APIs, and optimized app performance for Android and iOS platforms. I collaborated with designers and backend developers to deliver high-quality mobile solutions on tight deadlines.</p>
+                            <img src="./img/freelancer.png" class="position-absolute" style="top: 0px; left: -52px; border-radius: 100%; width: 50px; border: solid 3px #007bff;" />
+                            <h5 class="font-weight-bold">Freelancer</h5>
+                            <p><strong>Toptal, upwork and Arc.dev.</strong> | <small class="bg-primary text-white rounded-pill p-2">Dec 2024 - Present</small></p>
+                            <p class="text-justify ">As a Freelance Flutter Developer from December 2024 to present, I have been developing and deploying cross-platform mobile applications using Flutter and Dart. I design user-friendly interfaces, integrate RESTful APIs, and optimize app performance for both Android and iOS platforms. I collaborate with clients and backend teams to deliver high-quality mobile solutions within tight deadlines.</p>
                         </div>
                         <div class="position-relative mb-4 pl-2" style="padding: 12px;">
-                            <img src="./img/taalul.png" class="position-absolute" style="top: 2px; left: -52px; border-radius: 100%; width: 50px; border: solid 3px #007bff;" />
+                            <img src="./img/icdf.png" class="position-absolute" style="top: 2px; left: -52px; border-radius: 100%; width: 50px; border: solid 3px #007bff;" />
                         </div>
+                            <div class="position-relative pl-2" style="margin-top: 37%;">
+                            <img src="./img/taalul.png" class="position-absolute" style="top: 0px; left: -52px; border-radius: 100%; width: 50px; border: solid 3px #007bff;" />
+                            <h5 class="font-weight-bold">Mobile App Dev</h5>
+                            <p><strong>Taakul digital Solutions.</strong> | <small class="bg-primary text-white rounded-pill p-2">Apr 2022 - Oct 2023</small></p>
+                            <p class="text-justify ">As a Flutter Developer at Taakul Digital Solutions from October 2022 to February 2023, I developed and deployed cross-platform mobile applications using Flutter and Dart. I built user-friendly interfaces, integrated RESTful APIs, and optimized app performance for Android and iOS platforms. I collaborated with designers and backend developers to deliver high-quality mobile solutions on tight deadlines.</p>
+                        </div>
+                         
                     </div>
                 </div>
             </div>
@@ -300,21 +273,22 @@
     <!-- Work Experience End -->
 
 
-    <!-- Services Start -->
-    <div class="container-fluid pt-5" style="height: 100vh;" id="service">
-        <div class="container pt-5 mt-3">
+    <!-- Skills Start -->
+    <div class="container-fluid pt-5" style=" margin-top: 7%;" id="service">
+        <div class="container pt-5 mt-3 mb-5 pb-4">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;" data-aos="fade-up" data-aos-duration="1000">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary" data-aos="fade-down" data-aos-duration="1000">My Skills</h1>
             </div>
 
-            <div class="container pt-3">
+            <div class="container pt-4">
             <div class="row justify-content-center">
 
-                <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-md-3 text-center mb-5" data-aos="fade-up" data-aos-delay="0">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
+                        <!-- <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i> -->
+                        <img src="./img/icons/React.webp" class="icon" />
                         <h4 class="font-weight-bold m-0 text-white pt-3">React js</h4>
                         </div>
                     </div>
@@ -323,8 +297,8 @@
                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="100">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.</h4>
+                        <img src="./img/icons/nextjs.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">Next js</h4>
                         </div>
                     </div>
                 </div>
@@ -332,8 +306,8 @@
                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Mvc</h4>
+                        <img src="./img/icons/tailwind.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">Tailwind</h4>
                         </div>
                     </div>
                 </div>
@@ -341,26 +315,28 @@
                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="300">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Mvc</h4>
+                        <img src="./img/icons/aspnet.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Framework</h4>
                         </div>
                     </div>
                 </div>
 
-                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Mvc</h4>
+                        <!-- <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i> -->
+                        <img src="./img/icons/csharp.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">C#</h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
+                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="500">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Mvc</h4>
+                        <!-- <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i> -->
+                         <img src="./img/icons/flutter.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">Flutter</h4>
                         </div>
                     </div>
                 </div>
@@ -368,8 +344,9 @@
                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Mvc</h4>
+                        <!-- <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i> -->
+                         <img src="./img/icons/firebase.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">Fire Base</h4>
                         </div>
                     </div>
                 </div>
@@ -377,218 +354,262 @@
                 <div class="col-md-3 text-center mb-4" data-aos="fade-up" data-aos-delay="700">
                     <div class="card-gradient" style="border-radius: 28px; height: 300px;">
                         <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%;">
-                        <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i>
-                        <h4 class="font-weight-bold m-0 text-white pt-3">.Net Mvc</h4>
+                        <!-- <i class="fa fa-2x fa-laptop service-icon bg-white text-primary"></i> -->
+                         <img src="./img/icons/postgresSql.png" class="icon" />
+                        <h4 class="font-weight-bold m-0 text-white pt-3">Postgres Sql</h4>
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
-        </div>
-
-
+         </div>
         </div>
     </div>
-    <!-- Services End -->
+    <!-- Skills End -->
 
 
 
-
-    <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" style="height: 100vh;" id="portfolio">
-        <div class="container pt-5 mt-5">
+    <!-- Projects Start -->
+    <div class="container-fluid pt-5" id="portfolio">
+        <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
-                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;" data-aos="fade-up" data-aos-duration="1000">Projects</h1>
+                <h1 class="position-absolute text-uppercase text-primary" data-aos="fade-down" data-aos-duration="1000">My Projects</h1>
             </div>
             <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="portfolio-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
-                    </ul>
-                </div>
+               <p class="text-dark text-center" data-aos="fade-down" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni dolorum maiores non sit dolor dicta minima eligendi placeat similique eveniet quod ipsum ipsam debitis temporibus, sed nemo doloremque, provident nulla consequuntur. Animi, non?</p>
             </div>
-            <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
+
+
+            <div class="container">
+    <div class="row justify-content-center pt-5">
+        <!-- Card Start -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="bg-white shadow-lg p-4 h-100 d-flex flex-column justify-content-between" style="border-radius: 25px;" data-aos="fade-up" data-aos-delay="0">
+                <div class="position-relative overflow-hidden mb-3">
+                    <img class="img-fluid w-100" src="./img/projects/1.jpg" alt="" style="border-radius: 20px;">
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
+                <div>
+                    <h3 class="mt-3">Tourism Agent</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae sunt ea dolores aut hic optio reprehenderit ducimus praesentium laudantium?</p>
+                    <hr>
+                    <p class="h6">Contributors</p>
+                    <div class="d-flex justify-content-between align-items-end">
+                        <div>
+                            <img src="./img/testimonial-1.jpg" style="width: 40px; border-radius: 50%; object-fit: cover;" />
+                            <img src="./img/testimonial-2.jpg" style="width: 40px; border-radius: 50%; object-fit: cover;" />
+                            <img src="./img/testimonial-3.jpg" style="width: 40px; border-radius: 50%; object-fit: cover;" />
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
+                        <a class="btn btn-outline-primary btn-sm">Detail</a>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Repeat for other cards -->
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="bg-white shadow-lg p-4 h-100 d-flex flex-column justify-content-between" style="border-radius: 25px;" data-aos="fade-up" data-aos-delay="200">
+                <div class="position-relative overflow-hidden mb-3">
+                    <img class="img-fluid w-100" src="./img/projects/2.jpg" alt="" style="border-radius: 20px;">
+                </div>
+                <div>
+                    <h3 class="mt-3">Pos System</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae sunt ea dolores aut hic optio reprehenderit ducimus praesentium laudantium?</p>
+                    <hr>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-outline-primary btn-sm">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="bg-white shadow-lg p-4 h-100 d-flex flex-column justify-content-between" style="border-radius: 25px;" data-aos="fade-up" data-aos-delay="200">
+                <div class="position-relative overflow-hidden mb-3">
+                    <img class="img-fluid w-100" src="./img/projects/2.jpg" alt="" style="border-radius: 20px;">
+                </div>
+                <div>
+                    <h3 class="mt-3">Pos System</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae sunt ea dolores aut hic optio reprehenderit ducimus praesentium laudantium?</p>
+                    <hr>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-outline-primary btn-sm">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="bg-white shadow-lg p-4 h-100 d-flex flex-column justify-content-between" style="border-radius: 25px;" data-aos="fade-up" data-aos-delay="200">
+                <div class="position-relative overflow-hidden mb-3">
+                    <img class="img-fluid w-100" src="./img/projects/2.jpg" alt="" style="border-radius: 20px;">
+                </div>
+                <div>
+                    <h3 class="mt-3">Pos System</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae sunt ea dolores aut hic optio reprehenderit ducimus praesentium laudantium?</p>
+                    <hr>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-outline-primary btn-sm">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="bg-white shadow-lg p-4 h-100 d-flex flex-column justify-content-between" style="border-radius: 25px;" data-aos="fade-up" data-aos-delay="200">
+                <div class="position-relative overflow-hidden mb-3">
+                    <img class="img-fluid w-100" src="./img/projects/2.jpg" alt="" style="border-radius: 20px;">
+                </div>
+                <div>
+                    <h3 class="mt-3">Pos System</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae sunt ea dolores aut hic optio reprehenderit ducimus praesentium laudantium?</p>
+                    <hr>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-outline-primary btn-sm">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="bg-white shadow-lg p-4 h-100 d-flex flex-column justify-content-between" style="border-radius: 25px;" data-aos="fade-up" data-aos-delay="200">
+                <div class="position-relative overflow-hidden mb-3">
+                    <img class="img-fluid w-100" src="./img/projects/2.jpg" alt="" style="border-radius: 20px;">
+                </div>
+                <div>
+                    <h3 class="mt-3">Pos System</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia beatae sunt ea dolores aut hic optio reprehenderit ducimus praesentium laudantium?</p>
+                    <hr>
+                    <div class="d-flex justify-content-end">
+                        <a class="btn btn-outline-primary btn-sm">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Repeat same for other cards... -->
+    </div>
+</div>
+
+
+            
         </div>
     </div>
     <!-- Portfolio End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+<div class="container-fluid py-5" id="testimonial">
+    <div class="container pt-5 mt-5">
+        <div class="position-relative d-flex align-items-center justify-content-center mb-5">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;" data-aos="fade-up" data-aos-duration="1000">Review</h1>
+            <h1 class="position-absolute text-uppercase text-primary" data-aos="fade-down" data-aos-duration="1000">All Testimonials</h1>
+        </div>
+
+        <div class="row gx-4 gy-4 mt-5">
+            <div class="col-lg-6 col-md-12 mt-4">
+                <div class="p-4 bg-white shadow-lg card-review text-center" style="border-radius: 25px; cursor: pointer;">
+                    <img class="img-fluid rounded-circle mx-auto mb-3 mt-4 clinet-Image" src="./img/clients/mario.jpg" alt="Mario Lin" style="width: 100px; height: 100px; object-fit: cover;">
+                    <h5 class="font-weight-bold mt-2">Mario Lin</h5>
+                    <span>Project Manager of Taiwan Technical Mission</span>
+                    <div>
+                        <i class="fa fa-2xl fa-quote-left text-primary mb-3 mt-4"></i>
+                        <h6 class="font-weight-light mb-4">
+                            Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed.
+                        </h6>
+                    </div>
+                </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
-                        <div class="text-center">
-                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
-                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                            <h5 class="font-weight-bold m-0">Client Name</h5>
-                            <span>Profession</span>
-                        </div>
+
+            <div class="col-lg-6 col-md-12 mt-4">
+                <div class="p-4 bg-white shadow-lg card-review text-center" style="border-radius: 25px; cursor: pointer;">
+                    <img class="img-fluid rounded-circle mx-auto mb-3 mt-4 clinet-Image" src="./img/clients/sahal.jpg" alt="Sahal Abdi Adam" style="width: 100px; height: 100px; object-fit: cover;">
+                    <h5 class="font-weight-bold mt-2">Sahal Abdi Adam</h5>
+                    <span>Ceo of Taakul Digital Solutions</span>
+                    <div>
+                        <i class="fa fa-2xl fa-quote-left text-primary mb-3 mt-4"></i>
+                        <h6 class="font-weight-light mb-4">
+                            Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed.
+                        </h6>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Testimonial End -->
+</div>
+<!-- Testimonial End -->
+
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form text-center">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
+ <div class="container-fluid d-flex align-items-center justify-content-center" style="background-color: #f9fbff; background-image: url(./img/bg1.JPG);" id="contactFrom">
+
+    <div class="container">
+        <!-- Heading -->
+       <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase" style="-webkit-text-stroke: 1px #dee2e6;" data-aos="fade-up" data-aos-duration="1000">Contact</h1>
+            <h1 class="position-absolute text-uppercase text-white" data-aos="fade-down" data-aos-duration="1000">Contact Me</h1>
+        </div>
+
+        <!-- Contact Card -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-7">
+                <div class="shadow p-5 card-review" style="border-radius: 30px;">
+                    <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control bg-transparent text-white form-control-lg rounded-pill" id="name" placeholder="Your Name" required />
                             </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control bg-transparent text-white form-control-lg rounded-pill" id="email" placeholder="Your Email" required />
                             </div>
-                            <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
+                            <div class="col-12  mt-4">
+                                <input type="text" class="form-control bg-transparent text-white form-control-lg rounded-pill" id="subject" placeholder="Subject" required />
                             </div>
-                            <div>
-                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                    Message</button>
+                            <div class="col-12 mt-4">
+                                <textarea class="form-control bg-transparent text-white form-control-lg rounded-4" rows="5" id="message" placeholder="Your Message" required></textarea>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <a class="btn btn-primary rounded-pill col-12 btn-lg" type="submit">Send Message <i class="fa fa-paper-plane"></i> </a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
+</div>
     <!-- Contact End -->
 
+    <!-- Elfsight WhatsApp Chat | Untitled WhatsApp Chat -->
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-c2abd8ef-3a13-4375-91eb-cba282847364" data-elfsight-app-lazy></div>
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+    <div class="container-fluid text-white py-5 px-sm-3 px-md-5" style="background-color: #f9fbff;" >
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-primary btn-social mr-2" href="https://x.com/hamsesulup"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-primary btn-social mr-2" href="https://github.com/hamsesulup"><i class="fab fa-github"></i></a>
+                <a class="btn btn-primary btn-social mr-2" href="https://linkedin.com/in/hamsesulup"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-primary btn-social" href="https://facebook.com/hamsesulup"><i class="fab fa-facebook-f"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
-                <a class="text-white" href="#">Privacy</a>
+                <a class="text-dark" href="#">About</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">Terms</a>
+                <a class="text-dark" href="#">Projects</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">FAQs</a>
+                <a class="text-dark" href="#">Skills</a>
                 <span class="px-3">|</span>
-                <a class="text-white" href="#">Help</a>
+                <a class="text-dark" href="#">Contact</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            <p class="m-0 text-dark">&copy; All Rights Reserved. Designed by <span class="text-dark font-weight-bold">Hamse Abdi Mohamed</span>
             </p>
         </div>
     </div>
     <!-- Footer End -->
+
 
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-primary scroll-to-bottom"></i>
@@ -621,7 +642,6 @@
         AOS.init();
     </script>
 
-    
 </body>
 
 </html>
