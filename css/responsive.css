@@ -37,7 +37,7 @@
 
     /* Section titles spacing */
     #about h1,
-    #qualification h1, #portfolio h1, #testimonial h1, #contactFrom h1 {
+    #qualification h1, #portfolio h1, #testimonial h1, #contactFrom h1, #service h1 {
       font-size: 2rem;
       margin-bottom: 20px;
     }
