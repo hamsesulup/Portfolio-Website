@@ -10109,6 +10109,29 @@ h6,
   background: #0BCEAF;
 }
 
+
+  /* Programming language logos styling */
+  .prog-logo {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+    filter: grayscale(60%);
+  }
+  .prog-logo:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+  }
+
+  /* Position adjustment for logos container on smaller screens */
+  @media (max-width: 991px) {
+    .position-absolute {
+      position: static !important;
+      margin-top: 1rem;
+    }
+  }
+
+
 .blog-date {
   position: absolute;
   width: 60px;
