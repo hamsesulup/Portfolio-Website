@@ -90,8 +90,13 @@
   #contactFrom{
     height: 100vh;
  }
-
 }
+
+
+.oneTime{
+    display: none;
+ }
+
 
 /* Small screens (mobile) */
 @media (max-width: 767px) {
@@ -105,7 +110,19 @@
   #contactFrom{
     margin: 0;
   }
+  .leftWork{
+    display: none;
+  }
+  .oneTime{
+    display: block;
+  }
+   .thirdJob{
+    margin-top: 0px;
+ }
+}
 
+.thirdJob{
+    margin-top: 37%;
 }
 
 
@@ -177,3 +194,5 @@
 #about, #qualification {
   overflow-x: hidden;
 }
+
+
