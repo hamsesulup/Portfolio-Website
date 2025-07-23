@@ -20,10 +20,12 @@
 
     /* Make text less cramped */
     #about p,
-    #qualification p, #testimonial p, #portfolio p {
+    #qualification p, #testimonial p, #portfolio p{
       font-size: 0.95rem;
       line-height: 1.6;
     }
+
+
 
     /* Profile Image spacing */
     #about .profile-img {
@@ -37,7 +39,7 @@
 
     /* Section titles spacing */
     #about h1,
-    #qualification h1, #portfolio h1, #testimonial h1, #contactFrom h1 {
+    #qualification h1, #portfolio h1, #testimonial h1, #contactFrom h1, #service h1 {
       font-size: 2rem;
       margin-bottom: 20px;
     }
@@ -56,20 +58,34 @@
     #qualification h5 {
       font-size: 1.2rem;
     }
+    #contactFrom input, #contactFrom textarea{
+     /* margin-top: 5%; */
+     font-size: 1rem;
+    }
+    #contactFrom #email{
+        margin-top: 7%;
+    }
     #about .btn,
     #qualification .btn , #contactFrom .btn{
       width: 100%;
+    }
+    #contactFrom .btn{
+        font-size: 15px;
     }
   }
 
 
   /* Default for large screens */
-#about, #qualification, #portfolio, #testimonial, #contactFrom{
+#about,  #portfolio, #testimonial, #contactFrom{
   height: 100vh;
   min-height: 600px; /* fallback for very short viewports */
   padding-top: 80px;
   padding-bottom: 80px;
 }
+#qualification {
+  height: auto;
+}
+
 
 #portfolio .container{
     height: auto;
@@ -90,8 +106,13 @@
   #contactFrom{
     height: 100vh;
  }
-
 }
+
+
+.oneTime{
+    display: none;
+ }
+
 
 /* Small screens (mobile) */
 @media (max-width: 767px) {
@@ -105,7 +126,32 @@
   #contactFrom{
     margin: 0;
   }
+  .leftWork{
+    display: none;
+  }
+  .oneTime{
+    display: block;
+  }
+   .thirdJob{
+    margin-top: 0px;
+    height: auto;
+ }
+ .hireMe{
+  margin-top: 10px;
+ }
 
+ #testimonial {
+    margin-top: 0; /* Large top margin for all screens */
+}
+
+#email{
+  margin-top: 0px;
+}
+}
+
+.thirdJob{
+    margin-top: 37%;
+    height: auto;
 }
 
 
@@ -122,7 +168,7 @@
 
 
 #testimonial {
-    margin-top: 20%; /* Large top margin for all screens */
+    margin-top: 30%; /* Large top margin for all screens */
 }
 
 @media (max-width: 767.98px) {
@@ -174,6 +220,10 @@
 }
 
 
-#about, #qualification {
+#about, #qualification{
+  overflow-x: hidden;
+}
+
+html, body {
   overflow-x: hidden;
 }
