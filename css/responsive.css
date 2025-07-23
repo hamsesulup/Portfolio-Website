@@ -12,20 +12,12 @@
         margin-top: 100%;
     }
 
-    /* Add more gap between rows in About and Work sections */
-    /* #about .row,
-    #qualification .row {
-      row-gap: 30px;
-    } */
-
     /* Make text less cramped */
     #about p,
     #qualification p, #testimonial p, #portfolio p{
       font-size: 0.95rem;
       line-height: 1.6;
     }
-
-
 
     /* Profile Image spacing */
     #about .profile-img {
@@ -182,7 +174,6 @@
 }
 
 
-
 /* Floating Card */
 .floating-card {
     background: #fff;
@@ -218,7 +209,6 @@
         bottom: 50px;
     }
 }
-
 
 #about, #qualification{
   overflow-x: hidden;
