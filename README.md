@@ -13,8 +13,8 @@ A modern profile website for persnal use, thar repersnt your background, experie
 - ✅ Your Skills 
 - ✅ Project you have done
 - ✅ Review
-- ✅ Whatapp chat
-- ✅ Email contact form
+- ✅ Whatapp Chat plugin
+- ✅ Email COntact Form
 
 
 
