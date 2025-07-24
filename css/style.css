@@ -86,7 +86,7 @@ body {
       text-decoration: none;
       color: black;
       margin: 0 1rem;
-      font-weight: 500;
+      font-weight: 400;
       &:hover{
         text-decoration: none;
         color: #007bff;
