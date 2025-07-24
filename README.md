@@ -23,3 +23,6 @@ A modern profile website for persnal use, thar repersnt your background, experie
 - 🛢  Javascript: Jquery
 - ☁️ Plugin: Whatsapp chat plug
 
+## 👨‍💻 Developer
+
+![Project Screenshot](./img/cov.png)
