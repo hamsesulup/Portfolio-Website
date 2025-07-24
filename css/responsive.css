@@ -12,20 +12,12 @@
         margin-top: 100%;
     }
 
-    /* Add more gap between rows in About and Work sections */
-    /* #about .row,
-    #qualification .row {
-      row-gap: 30px;
-    } */
-
     /* Make text less cramped */
     #about p,
     #qualification p, #testimonial p, #portfolio p{
       font-size: 0.95rem;
       line-height: 1.6;
     }
-
-
 
     /* Profile Image spacing */
     #about .profile-img {
@@ -72,6 +64,12 @@
     #contactFrom .btn{
         font-size: 15px;
     }
+     #home{
+      margin-top: 0;
+      }
+       #home{
+   margin-top: 0px;
+  }
   }
 
 
@@ -106,6 +104,7 @@
   #contactFrom{
     height: 100vh;
  }
+ 
 }
 
 
@@ -135,18 +134,31 @@
    .thirdJob{
     margin-top: 0px;
     height: auto;
- }
- .hireMe{
-  margin-top: 10px;
- }
+  }
+  .hireMe{
+    margin-top: 10px;
+  }
 
  #testimonial {
-    margin-top: 0; /* Large top margin for all screens */
+    margin-top: 0; 
+  }
+
+  #home{
+   margin-top: 0px;
+  }
+
+  #email{
+    margin-top: 0px;
+  }
+  .navbar1{
+    display: none;
+  }
 }
 
-#email{
-  margin-top: 0px;
-}
+/* end of small screen */
+
+#home{
+  margin-top: -20px;
 }
 
 .thirdJob{
@@ -180,7 +192,6 @@
         width: 100%; /* Full width on mobile */
     }
 }
-
 
 
 /* Floating Card */
@@ -218,7 +229,6 @@
         bottom: 50px;
     }
 }
-
 
 #about, #qualification{
   overflow-x: hidden;
