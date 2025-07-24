@@ -21,7 +21,7 @@ A modern profile website for persnal use, thar repersnt your background, experie
 - 🌐 Frontend: HTML, CSS, JavaScript
 - ⚙️ Lib: Bootstrap, Fontawesome, owlcrousel and typed
 - 🛢  Javascript: Jquery
-- ☁️ Plugin: Whatsapp chat plug
+- ☁️ Api: Whatsapp chat plug, email sender.
 
 ## 👨‍💻 Developer
 
