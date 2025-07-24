@@ -12,8 +12,9 @@ A modern profile website for persnal use, thar repersnt your background, experie
 - ✅ What you have been done before (Your work experience)
 - ✅ Your Skills 
 - ✅ Project you have done
-- ✅ Review and contact part
-- ✅ Whatapp chat plug & Email contact.
+- ✅ Review
+- ✅ Whatapp chat
+- ✅ Email contact
 
 
 
@@ -21,7 +22,7 @@ A modern profile website for persnal use, thar repersnt your background, experie
 
 - 🌐 Frontend: HTML, CSS, JavaScript
 - ⚙️ Lib: Bootstrap, Fontawesome, owlcrousel and typed
-- 🛢  Javascript: Jquery
+- 🛢  Php & Jquery
 
 ## 👨‍💻 Developer
 
