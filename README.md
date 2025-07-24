@@ -14,7 +14,7 @@ A modern profile website for persnal use, thar repersnt your background, experie
 - ✅ Project you have done
 - ✅ Review
 - ✅ Whatapp chat
-- ✅ Email contact
+- ✅ Email contact form
 
 
 
