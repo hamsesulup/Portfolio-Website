@@ -4,7 +4,7 @@ A modern profile website for persnal use, thar repersnt your background, experie
 
 ![Project Screenshot](./img/home.png)
 
----
+
 
 ## ✨ Features
 
@@ -14,13 +14,12 @@ A modern profile website for persnal use, thar repersnt your background, experie
 - ✅ Project you have done
 - ✅ Review and contact part
 
----
+
 
 ## 🔧 Tech Stack
 
-- 🌐 Frontend: HTML, CSS, JavaScript, Bootstrap
-- ⚙️ Backend: PHP (Laravel) or Node.js
-- 🛢  Database: MySQL / PostgreSQL
-- ☁️ Others: Twilio, Firebase (for notifications), GitHub Actions (CI/CD)
+- 🌐 Frontend: HTML, CSS, JavaScript
+- ⚙️ Lib: Bootstrap, Fontawesome, owlcrousel and typed
+- 🛢  Javascript: Jquery
+- ☁️ Plugin: Whatsapp chat plug
 
----
