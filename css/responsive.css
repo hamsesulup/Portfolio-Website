@@ -64,6 +64,12 @@
     #contactFrom .btn{
         font-size: 15px;
     }
+     #home{
+      margin-top: 0;
+      }
+       #home{
+   margin-top: 0px;
+  }
   }
 
 
@@ -98,6 +104,7 @@
   #contactFrom{
     height: 100vh;
  }
+ 
 }
 
 
@@ -127,18 +134,31 @@
    .thirdJob{
     margin-top: 0px;
     height: auto;
- }
- .hireMe{
-  margin-top: 10px;
- }
+  }
+  .hireMe{
+    margin-top: 10px;
+  }
 
  #testimonial {
-    margin-top: 0; /* Large top margin for all screens */
+    margin-top: 0; 
+  }
+
+  #home{
+   margin-top: 0px;
+  }
+
+  #email{
+    margin-top: 0px;
+  }
+  .navbar1{
+    display: none;
+  }
 }
 
-#email{
-  margin-top: 0px;
-}
+/* end of small screen */
+
+#home{
+  margin-top: -20px;
 }
 
 .thirdJob{
