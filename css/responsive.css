@@ -76,7 +76,7 @@
   /* Default for large screens */
 #about,  #portfolio, #testimonial, #contactFrom{
   height: 100vh;
-  min-height: 600px; /* fallback for very short viewports */
+  min-height: 600px; 
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -180,16 +180,16 @@
 
 
 #testimonial {
-    margin-top: 30%; /* Large top margin for all screens */
+    margin-top: 30%; 
 }
 
 @media (max-width: 767.98px) {
     #testimonial {
-        margin-top: 20px; /* Large top margin for all screens */
+        margin-top: 20px; 
     }
 
     .card-review {
-        width: 100%; /* Full width on mobile */
+        width: 100%; 
     }
 }
 
