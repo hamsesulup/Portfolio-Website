@@ -30,7 +30,7 @@ The portfolio is fully responsive, modern, and lightweight — designed for fast
 
 ![Screenshot - Home](./img/home.png)
 
-> _(Replace with your real screenshots in a `screenshots/` folder)_
+> _(Screenshoots)_
 
 ## 📂 Project Structure
 
