@@ -71,7 +71,7 @@ No build tools or back-end required.
 ## 🌐 Live Demo
 
 Check out the live version here:
-👉 https://hamsesulup.github.io/portfolio
+👉 https://hamsesulup.github.io/Portfolio-Website/
 
 
 ## 📬 Contact
