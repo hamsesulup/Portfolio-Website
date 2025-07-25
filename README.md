@@ -22,7 +22,7 @@ A modern profile website for persnal use, thar repersnt your background, experie
 
 - 🌐 Frontend: HTML, CSS, JavaScript
 - ⚙️ Lib: Bootstrap, Fontawesome, owlcrousel and typed
-- 🛢  Php & Jquery
+- 🛢  Jquery
 
 ## 👨‍💻 Developer
 
