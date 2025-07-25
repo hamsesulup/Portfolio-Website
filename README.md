@@ -82,3 +82,8 @@ Check out the live version here:
 
 ## 📝 License
 This project is open-source and available under the MIT License.
+
+##
+
+![Screenshot - Home](./img/cov.png)
+
