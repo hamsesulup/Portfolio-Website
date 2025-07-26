@@ -44,6 +44,7 @@
 
 html {
   font-family: sans-serif;
+  scroll-behavior: smooth;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -76,7 +77,7 @@ body {
       align-items: center;
       padding: 0;
       background: transparent;
-      margin: 2rem 0px 0px 3rem;
+      margin: 2rem 0px 0px 0;
       position: sticky;
       top: 0;
       z-index: 999;
@@ -9810,6 +9811,19 @@ h6,
 
 .testimonial-carousel .owl-dot.active {
   background: #0BCEAF;
+}
+
+.sliderBorder{
+  border-radius: 15px;
+}
+
+.my-confirm {
+  background-color: #007bff; /* green */
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 
