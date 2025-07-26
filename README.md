@@ -67,19 +67,8 @@ No build tools or back-end required.
 
 ## 🌐 Live Demo
 
-<<<<<<< HEAD
-- ✅ About Your Self
-- ✅ What you have been done before (Your work experience)
-- ✅ Your Skills 
-- ✅ Project you have done
-- ✅ Review
-- ✅ Project Detail
-- ✅ Whatapp chat
-- ✅ Email contact
-=======
 Check out the live version here:
 👉 https://hamsesulup.github.io/Portfolio-Website/
->>>>>>> dec8dd55b696d2b06c704f0d40268376c322627e
 
 
 ## 📬 Contact
