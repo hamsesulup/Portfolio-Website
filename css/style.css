@@ -9767,7 +9767,7 @@ h6,
   transition: 2s;
 }
 
-.service-icon {
+.skills-icon {
   width: 60px;
   height: 60px;
   display: flex;
@@ -9776,7 +9776,7 @@ h6,
   border-radius: 60px;
 }
 
-.portfolio-item .portfolio-btn {
+.projects-item .projects-btn {
   position: absolute;
   width: 0;
   height: 0;
@@ -9787,7 +9787,7 @@ h6,
   transition: .5s;
 }
 
-.portfolio-item:hover .portfolio-btn {
+.projects-item:hover .projects-btn {
   opacity: 1;
   width: calc(100% - 60px);
   height: calc(100% - 60px);
