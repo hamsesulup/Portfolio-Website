@@ -1,20 +1,20 @@
   @media (max-width: 767px) {
     /* General spacing for sections */
     #about,
-    #qualification,#portfolio, #testimonial{
+    #experince,#projects, #testimonial{
       padding-top: 60px !important;
       padding-bottom: 60px !important;
       margin-top: 40px;
       margin-bottom: 40px;
     }
 
-    #qualification{
+    #experince{
         margin-top: 100%;
     }
 
     /* Make text less cramped */
     #about p,
-    #qualification p, #testimonial p, #portfolio p{
+    #experince p, #testimonial p, #projects p{
       font-size: 0.95rem;
       line-height: 1.6;
     }
@@ -25,13 +25,13 @@
     }
 
     /* Work experience timeline adjustments */
-    #qualification .pl-2 {
+    #experince .pl-2 {
       margin-top: 30px;
     }
 
     /* Section titles spacing */
     #about h1,
-    #qualification h1, #portfolio h1, #testimonial h1, #contactFrom h1, #service h1 {
+    #experince h1, #projects h1, #testimonial h1, #contactFrom h1, #skills h1 {
       font-size: 2rem;
       margin-bottom: 20px;
     }
@@ -40,14 +40,14 @@
   @media (max-width: 575px) {
     /* Extra small screens (iPhone SE, etc.) */
     #about,
-    #qualification, #portfolio, #contactFrom{
+    #experince, #projects, #contactFrom{
       padding-top: 50px;
       padding-bottom: 50px;
       margin-top: 30px;
       margin-bottom: 30px;
     }
     #about h3,
-    #qualification h5 {
+    #experince h5 {
       font-size: 1.2rem;
     }
     #contactFrom input, #contactFrom textarea{
@@ -58,7 +58,7 @@
         margin-top: 7%;
     }
     #about .btn,
-    #qualification .btn , #contactFrom .btn{
+    #experince .btn , #contactFrom .btn{
       width: 100%;
     }
     #contactFrom .btn{
@@ -74,18 +74,18 @@
 
 
   /* Default for large screens */
-#about,  #portfolio, #testimonial, #contactFrom{
+#about,  #projects, #testimonial, #contactFrom{
   height: 100vh;
   min-height: 600px; 
   padding-top: 80px;
   padding-bottom: 80px;
 }
-#qualification {
+#experince {
   height: auto;
 }
 
 
-#portfolio .container{
+#projects .container{
     height: auto;
 }
 
@@ -95,7 +95,7 @@
 
 /* Medium screens (tablet) */
 @media (max-width: 991px) {
-  #about, #qualification, #portfolio, #testimonial, #contactFrom{
+  #about, #experince, #projects, #testimonial, #contactFrom{
     height: auto;
     min-height: unset;
     padding-top: 60px;
@@ -115,7 +115,7 @@
 
 /* Small screens (mobile) */
 @media (max-width: 767px) {
-  #about, #qualification, #portfolio, #testimonial, #contactFrom{
+  #about, #experince, #projects, #testimonial, #contactFrom{
     height: auto;
     min-height: unset;
     padding-top: 50px;
@@ -230,7 +230,7 @@
     }
 }
 
-#about, #qualification{
+#about, #experince{
   overflow-x: hidden;
 }
 
